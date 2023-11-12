@@ -10,8 +10,7 @@ float problemSolution5(float x, float y, char operation) {
            result=x*y;
        case '/':
            if(y==0){
-               cout<<"Error!";
-               break;
+               result=0;
            }else{
                result=x/y;
            }
