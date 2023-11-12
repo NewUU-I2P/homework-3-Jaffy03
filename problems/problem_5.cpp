@@ -9,7 +9,13 @@ float problemSolution5(float x, float y, char operation) {
        case '*':
            result=x*y;
        case '/':
-           result=x/y;
+           if(y==0){
+               cout<<"Error!";
+               break;
+           }else{
+               result=x/y;
+           }
+
    }
 
    return result;
